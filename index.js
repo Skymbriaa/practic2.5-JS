@@ -1,12 +1,16 @@
 
 'use strict'
 
-const objNumber = new Number(12);
-console.log(objNumber);
-console.log(objNumber.valueOf());
+const dataBDUser = '12/03/2000';
 
-const number1 = 12.345;
-console.log(number1.toExponential());
-console.log(number1.toFixed(2));
+const arrDataBDUser = dataBDUser.split('/');
+cobsole.log(arrDataBDUser.at(-1));
 
+const now = new Date()
+
+console.log(now.getFullYear());
+console.dir(now);
+
+const age = now.getFullYear() - SVGAnimatedNumber.split('/').at(-1);
+console.dir(age);
 
