@@ -1,22 +1,12 @@
 
 'use strict'
 
-const booleanValue = false;
+const objNumber = new Number(12);
+console.log(objNumber);
+console.log(objNumber.valueOf());
 
-const booleanObj = new Boolean(false); //address
-console.log(booleanObj);
+const number1 = 12.345;
+console.log(number1.toExponential());
+console.log(number1.toFixed(2));
 
-// console.log(typeof booleanObj.toString(), boolean.toString());
-// console.log(typeof booleanObj.valueOf(), booleanObj.valueOflueOf());
 
-if (booleanObj) {
-    console.log('booleanValue = ', booleanValue);
-}
-
-if (booleanObj) {
-    console.log('booleanObd value = ', booleanObj.valueOf());
-}
-
-const test  = true.toString()
-
-const test2 = new Boolean(true).toString();
