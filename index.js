@@ -1,18 +1,22 @@
 
-const sumNumbers1 = function() {
- return Array.from(arguments).reduce((summa, elem)=> summa+elem)
+'use strict'
+
+const booleanValue = false;
+
+const booleanObj = new Boolean(false); //address
+console.log(booleanObj);
+
+// console.log(typeof booleanObj.toString(), boolean.toString());
+// console.log(typeof booleanObj.valueOf(), booleanObj.valueOflueOf());
+
+if (booleanObj) {
+    console.log('booleanValue = ', booleanValue);
 }
 
-const result = sumNumbers1(1,2,3);
+if (booleanObj) {
+    console.log('booleanObd value = ', booleanObj.valueOf());
+}
 
-console.log(result);
-//
-//
-//
-const sumNumbers2 = (...rest) => rest.reduce((summa, elem)=>summa+elem);
+const test  = true.toString()
 
-// const sumNumbers2 = () => Array.from(arguments).reduce((summa, elem)=>summa+elem);
-
-const result2 = sumNumbers2(1,2,3);
-console.log(result2);
-
+const test2 = new Boolean(true).toString();
